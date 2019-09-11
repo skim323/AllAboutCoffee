@@ -1,0 +1,148 @@
+/*
+colors:
+#8B6748
+#ECBA9C
+#E6B08D
+#56382B
+#F48472
+#DE5F46
+*/
+body {
+  background-color: #E6B08D;
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+
+}
+h1{
+  font-size: 40px;
+}
+h1, h2 {
+  font-weight: bold;
+  color: #56382B;
+}
+p {
+  color: #56382B;
+}
+footer {
+  text-align: right;
+  padding-top: 20px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+}
+cite, cite a {
+  color: #56382B;
+  font-size: 12px;
+}
+#typesTable {
+  padding-right: 10px;
+  padding-bottom: 10px;
+  background-color: rgba(139,103,72,.6);
+  color: #56382B;
+}
+#typesTable td {
+  vertical-align: center;
+}
+.coffeeImgStyle {
+  width: 250px;
+}
+.form_error {
+  color: white;
+}
+.hidden {
+  display: none;
+}
+.page_link {
+  background-color: #E6B08D;
+  color: #56382B;
+  border: 2px #56382B solid;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.page_link:hover {
+  background-color: #56382B;
+  color: #E6B08D;
+  border: 2px #56382B solid;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row{
+  background-color: #F48472;
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+  padding-bottom: 20px;
+  border: 2px #56382B solid;
+}
+.column {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+#go_take_quiz {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 5px solid #56382B;
+  text-align: center;
+  background-color: #F48472;
+}
+#quiz{
+  background-color: rgba(139,103,72,.4);
+  color: #56382B;
+  border: 2px solid #56382B;
+}
+.center {
+  text-align: center;
+}
+.more_padding {
+  padding: 10px;
+}
+.before_button{
+  font-style: italic;
+  font-size: 20px;
+}
+
+/* navigation bar styles */
+.current_page {
+  background-color: #F48472;
+  color: #56382B;
+  font-weight: bold;
+  text-decoration: none;
+}
+#navbar {
+  width: 100%;
+  background-color: #56382B;
+  display: inline-block;
+  border-top: solid 8px #F48472;
+}
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  line-height: 20px;
+  height: 20px;
+}
+#navbar li {
+  float: left;
+
+}
+#navbar li a {
+  display: block;
+  padding: 14px 16px;
+  color: #ECBA9C;
+  text-align: center;
+  text-decoration: none;
+}
+#navbar li a:hover {
+  background-color: #F48472;
+  color: #56382B;
+}
